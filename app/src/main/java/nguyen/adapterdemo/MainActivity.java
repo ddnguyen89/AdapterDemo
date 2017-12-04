@@ -82,7 +82,7 @@ public class MainActivity extends ListActivity {
 
         //sometimes you want to get a result back from an activity when it ends
         //for example, you may start an activity that lets the user pick a person
-        //in a list of contacts. when it ends, it returns the person that was selected.
+        //in a list of contacts. when it ends, it returns the person that was selected
         startActivityForResult(intent, REQUEST_CODE);
     }
 
